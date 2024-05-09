@@ -2,8 +2,8 @@ import requests
 
 # Google Custom Search API endpoint
 API_ENDPOINT = "https://www.googleapis.com/customsearch/v1"
-API_KEY = "AIzaSyAV6hJjF39XZyZDaGhdSUkU0mlcqy5nsY0"  # Your API key
-CSE_ID = "a2a53c3edc1974407"  # Your Custom Search Engine ID
+API_KEY = ""  # Your API key
+CSE_ID = ""  # Your Custom Search Engine ID
 
 # Function to search for an organization's website URL
 def search_for_website(organization_name):
