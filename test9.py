@@ -7,7 +7,7 @@ def find_first_url(query):
     search_url = f"https://www.google.com/search?q={query}+site%3A*"
     # Updated User-Agent to mimic a different browser
     headers = {
-        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36'
+        'User-Agent': ''
     }
     try:
         time.sleep(2)  # Adjusted sleep to be more reasonable
