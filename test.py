@@ -1,7 +1,7 @@
 import requests
 
 # Google Custom Search API endpoint
-API_ENDPOINT = "https://www.googleapis.com/customsearch/v1"
+API_ENDPOINT = ""
 API_KEY = ""  # Your API key
 CSE_ID = ""  # Your Custom Search Engine ID
 
